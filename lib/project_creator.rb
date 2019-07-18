@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'pry'
 require 'fileutils'
 
@@ -36,7 +38,7 @@ require '#{file_name}.rb'
 
 describe('#{file_name}') do
   it('this is your generic test') do
-    
+
   end
 end
 ")}
